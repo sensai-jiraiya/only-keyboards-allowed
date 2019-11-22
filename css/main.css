@@ -73,6 +73,18 @@ html {
   border: 5px solid white;
 }
 
+header a:focus {
+  outline: 5px solid white;
+}
+
+.techniques a:focus {
+  outline: 5px solid red;
+}
+
+.satellites a:focus {
+  outline: 5px solid red;
+}
+
 .techniques {
   background-image: url("../images/galaxies-in-hiding.jpg");
 }
